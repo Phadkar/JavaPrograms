@@ -1,9 +1,9 @@
-package src.JavaPrograms;
+package src.JavaPrograms.Strings;
 
 public class DuplicateCharinString {
     public static void main(String[] args) {
         int[] arrayOne ={2,5,4,7,6};
-        int[] arrayTwo ={2,5,4,9,6};
+        int[] arrayTwo ={2,5,4,7,6};
 
         boolean equalOrNot = true;
         if(arrayOne.length == arrayTwo.length)

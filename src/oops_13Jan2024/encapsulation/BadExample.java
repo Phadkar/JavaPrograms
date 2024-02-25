@@ -7,7 +7,7 @@ public class BadExample {
         vmoLogin vmoLogin = new vmoLogin("admin", "admin");
         boolean check = vmoLogin.isLoggedin("admin", "password");
         System.out.println(check);
-        boolean check1 = vmoLogin.isLoggedin("admin", "password");
+        boolean check1 = vmoLogin.isLoggedin("admin", "admin");
         String uname =vmoLogin.getUsername();
         System.out.println(uname);
         // vmoLogin.password = "password";
